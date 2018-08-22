@@ -1,9 +1,9 @@
 def square_array(array)
-
-return array.each do 
+array2 = []
+ array.each do 
 |x| x = x*x
-array
-
+array2.push(x)
 end
 
+return array2
 end
