@@ -1,4 +1,4 @@
 def square_array(array)
-return array.each do |x| x*x
+return array.each do |x| x**2
  end
 end
